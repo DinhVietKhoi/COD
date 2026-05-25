@@ -67,6 +67,26 @@
       "showing": "{{count}} câu hỏi",
       "loadMore": "Xem thêm {{remaining}} câu"
     },
+    "play": {
+      "title": "Luyện tập",
+      "intro": "Trả lời 20 câu hỏi ngẫu nhiên. Mỗi câu có 30 giây. Mỗi câu đúng được 1 điểm.",
+      "start": "Bắt đầu",
+      "progress": "Câu {{current}} / {{total}}",
+      "score": "Điểm: {{score}}",
+      "timeLeft": "{{seconds}}s",
+      "timeOut": "Hết giờ!",
+      "correct": "Chính xác!",
+      "wrong": "Sai rồi",
+      "notAnswered": "Chưa trả lời",
+      "next": "Tiếp",
+      "finished": {
+        "title": "Hoàn thành",
+        "score": "Bạn được {{score}} / {{total}} điểm",
+        "restart": "Chơi lại",
+        "back": "Về trang đố vui"
+      },
+      "quit": "Thoát"
+    },
     "loading": "Đang tải câu hỏi...",
     "loadError": "Không tải được dữ liệu đố vui."
   }

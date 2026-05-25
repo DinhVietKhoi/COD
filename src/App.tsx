@@ -3,6 +3,7 @@ import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import QuizHomePage from './pages/QuizHomePage';
 import QuizKindPage from './pages/QuizKindPage';
+import QuizPlayPage from './pages/QuizPlayPage';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/quiz" element={<QuizHomePage />} />
           <Route path="/quiz/:kind" element={<QuizKindPage />} />
+          <Route path="/quiz/:kind/play" element={<QuizPlayPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>

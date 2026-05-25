@@ -87,10 +87,6 @@
       },
       "quit": "Quit"
     },
-    "actions": {
-      "practice": "Practice",
-      "browseAll": "Browse all"
-    },
     "loading": "Loading questions...",
     "loadError": "Failed to load quiz data."
   }

@@ -1,4 +1,4 @@
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams, Navigate, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useQuizData, getCategoriesByKind } from '../hooks/useQuizData';
 import type { QuizKind } from '../types/quiz';
@@ -29,16 +29,21 @@ export default function QuizKindPage() {
         ]}
       />
 
-      <header>
-        <p className="text-xs uppercase tracking-wider text-indigo-500 dark:text-brand-400">
-          {t(`quiz.${quizKind}.subtitle`)}
-        </p>
-        <h1 className="mt-1 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">
-          {t(`quiz.${quizKind}.title`)}
-        </h1>
-        <p className="mt-2 max-w-2xl text-gray-600 dark:text-brand-300">
-          {t(`quiz.${quizKind}.description`)}
-        </p>
+      <header className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p className="text-xs uppercase tracking-wider text-indigo-500 dark:text-brand-400">
+            {t(`quiz.${quizKind}.subtitle`)}
+          </p>
+          <h1 className="mt-1 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            {t(`quiz.${quizKind}.title`)}
+          </h1>
+          <p className="mt-2 max-w-2xl text-gray-600 dark:text-brand-300">
+            {t(`quiz.${quizKind}.description`)}
+          </p>
+        </div>
+        <Link to={`/quiz/${quizKind}/play`} className="btn-primary self-start sm:self-end">
+          {t('quiz.actions.practice')}
+        </Link>
       </header>
 
       {state.status === 'loading' && (
