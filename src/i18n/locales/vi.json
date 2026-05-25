@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "CoD Hub",
+    "tagline": "Trang tra cứu Call of Dragons",
+    "language": "Ngôn ngữ",
+    "lang": {
+      "en": "Tiếng Anh",
+      "vi": "Tiếng Việt"
+    },
+    "nav": {
+      "home": "Trang chủ",
+      "quiz": "Đố vui"
+    },
+    "footer": {
+      "data_updated": "Dữ liệu cập nhật",
+      "source": "Nguồn",
+      "questions": "{{count}} câu hỏi"
+    },
+    "comingSoon": "Sắp ra mắt",
+    "breadcrumb": {
+      "home": "Trang chủ"
+    }
+  },
+  "home": {
+    "title": "Call of Dragons Hub",
+    "subtitle": "Công cụ và tra cứu dành cho người chơi Call of Dragons. Các mục khác sẽ được bổ sung sau.",
+    "sections": {
+      "quiz": {
+        "title": "Đố vui",
+        "description": "Xem toàn bộ câu hỏi Đố Vui Cá Nhân và Đố Vui Liên Minh, hoặc luyện tập với bộ câu ngẫu nhiên."
+      }
+    }
+  },
+  "quiz": {
+    "title": "Đố vui",
+    "subtitle": "Xem, tìm kiếm và luyện tập các câu hỏi đố vui trong game.",
+    "personal": {
+      "title": "Đố Vui Cá Nhân",
+      "subtitle": "Đố Vui Vale Society",
+      "description": "Câu hỏi về cốt truyện và lối chơi, trả lời cá nhân trong sự kiện Đố Vui Vale Society."
+    },
+    "alliance": {
+      "title": "Đố Vui Liên Minh",
+      "subtitle": "Sự kiện liên minh",
+      "description": "Câu hỏi được trả lời cùng các thành viên liên minh trong sự kiện Đố Vui Liên Minh, bao gồm cả các sự kiện phụ theo mùa."
+    },
+    "actions": {
+      "practice": "Luyện tập",
+      "browseAll": "Xem tất cả"
+    },
+    "stats": {
+      "count": "{{count}} câu hỏi",
+      "events": "{{count}} sự kiện phụ"
+    },
+    "events": {
+      "core": "Chính thức",
+      "worldcup": "World Cup 2026"
+    },
+    "notice": {
+      "practice": "Trò chơi luyện tập sắp được thêm vào.",
+      "list": "Danh sách đầy đủ kèm tìm kiếm sắp được thêm vào."
+    },
+    "list": {
+      "searchPlaceholder": "Tìm kiếm câu hỏi hoặc đáp án...",
+      "noResults": "Không tìm thấy kết quả phù hợp.",
+      "filterAll": "Tất cả",
+      "showing": "{{count}} câu hỏi",
+      "loadMore": "Xem thêm {{remaining}} câu"
+    },
+    "loading": "Đang tải câu hỏi...",
+    "loadError": "Không tải được dữ liệu đố vui."
+  }
+}

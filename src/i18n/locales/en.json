@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "CoD Hub",
+    "tagline": "Call of Dragons reference hub",
+    "language": "Language",
+    "lang": {
+      "en": "English",
+      "vi": "Vietnamese"
+    },
+    "nav": {
+      "home": "Home",
+      "quiz": "Quiz"
+    },
+    "footer": {
+      "data_updated": "Data updated",
+      "source": "Source",
+      "questions": "{{count}} questions"
+    },
+    "comingSoon": "Coming soon",
+    "breadcrumb": {
+      "home": "Home"
+    }
+  },
+  "home": {
+    "title": "Call of Dragons Hub",
+    "subtitle": "Tools and references for Call of Dragons players. More sections coming soon.",
+    "sections": {
+      "quiz": {
+        "title": "Quiz",
+        "description": "Browse every Vale Society and Alliance quiz question, or practice with a randomized set."
+      }
+    }
+  },
+  "quiz": {
+    "title": "Quiz",
+    "subtitle": "Browse, search and practice the in-game quiz questions.",
+    "personal": {
+      "title": "Personal Quiz",
+      "subtitle": "Vale Society Quiz",
+      "description": "Personal lore and gameplay questions answered alone in the Vale Society Quiz event."
+    },
+    "alliance": {
+      "title": "Alliance Quiz",
+      "subtitle": "Alliance event",
+      "description": "Questions answered together with alliance members during the Alliance Quiz event, including seasonal sub-events."
+    },
+    "actions": {
+      "practice": "Practice",
+      "browseAll": "Browse all"
+    },
+    "stats": {
+      "count": "{{count}} questions",
+      "events": "{{count}} sub-events"
+    },
+    "events": {
+      "core": "Core",
+      "worldcup": "World Cup 2026"
+    },
+    "notice": {
+      "practice": "The practice mini-game is coming soon.",
+      "list": "The full question list with search is coming soon."
+    },
+    "list": {
+      "searchPlaceholder": "Search questions or answers...",
+      "noResults": "No matching questions found.",
+      "filterAll": "All",
+      "showing": "{{count}} questions",
+      "loadMore": "Load {{remaining}} more"
+    },
+    "loading": "Loading questions...",
+    "loadError": "Failed to load quiz data."
+  }
+}
