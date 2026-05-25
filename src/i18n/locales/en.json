@@ -1,6 +1,6 @@
 {
   "common": {
-    "brand": "CoD Hub",
+    "brand": "๛ᵛⁿMageNoobッ",
     "tagline": "Call of Dragons reference hub",
     "language": "Language",
     "lang": {
@@ -66,6 +66,30 @@
       "filterAll": "All",
       "showing": "{{count}} questions",
       "loadMore": "Load {{remaining}} more"
+    },
+    "play": {
+      "title": "Practice",
+      "intro": "Answer 20 random questions. You have 30 seconds per question. 1 point each.",
+      "start": "Start",
+      "progress": "Question {{current}} / {{total}}",
+      "score": "Score: {{score}}",
+      "timeLeft": "{{seconds}}s",
+      "timeOut": "Time's up!",
+      "correct": "Correct!",
+      "wrong": "Wrong",
+      "notAnswered": "No answer",
+      "next": "Next",
+      "finished": {
+        "title": "Quiz Complete",
+        "score": "You scored {{score}} / {{total}}",
+        "restart": "Play Again",
+        "back": "Back to Quiz"
+      },
+      "quit": "Quit"
+    },
+    "actions": {
+      "practice": "Practice",
+      "browseAll": "Browse all"
     },
     "loading": "Loading questions...",
     "loadError": "Failed to load quiz data."

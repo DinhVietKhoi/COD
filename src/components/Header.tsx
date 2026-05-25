@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 import ThemeToggle from './ThemeToggle';
-
+import avatar from '../../public/avatar.png'
 const navClass = ({ isActive }: { isActive: boolean }) =>
   [
     'px-3 py-2 text-sm font-medium rounded-md transition',
@@ -17,7 +17,10 @@ export default function Header() {
     <header className="sticky top-0 z-10 border-b border-gray-200 bg-white/85 backdrop-blur dark:border-brand-800 dark:bg-brand-950/85">
       <div className="container-page flex h-14 items-center gap-4">
         <NavLink to="/" className="flex items-center gap-2 font-semibold text-gray-900 dark:text-white">
-          <span className="inline-block h-2.5 w-2.5 rounded-sm bg-indigo-500 dark:bg-brand-400" />
+          <div className={'size-12 rounded-full overflow-hidden'}>
+            <img className={'size-12'} src={avatar} alt={'avatar'} />
+
+          </div>
           {t('common.brand')}
         </NavLink>
         <nav className="flex items-center gap-1">

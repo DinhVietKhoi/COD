@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="flex items-center gap-3">
           <span>{t('common.tagline')}</span>
           <span className="text-gray-300 dark:text-brand-700">·</span>
-          <span className="font-semibold text-gray-700 dark:text-brand-300">© magenoob</span>
+          <span className="font-semibold text-gray-700 dark:text-brand-300">© MageNoob 770</span>
         </div>
         {state.status === 'ready' && (
           <div className="flex flex-wrap gap-x-4 gap-y-1">
