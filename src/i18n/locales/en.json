@@ -5,11 +5,24 @@
     "language": "Language",
     "lang": {
       "en": "English",
-      "vi": "Vietnamese"
+      "vi": "Vietnamese",
+      "kr": "Korean"
     },
     "nav": {
       "home": "Home",
-      "quiz": "Quiz"
+      "quiz": "Quiz",
+      "schedule": "Schedule"
+    },
+    "sidebar": {
+      "hub": "Hub",
+      "theme": {
+        "light": "Light mode",
+        "dark": "Dark mode"
+      }
+    },
+    "timezone": {
+      "placeholder": "Pick a timezone...",
+      "detectedHint": "Detected on this PC: {{tz}}"
     },
     "footer": {
       "data_updated": "Data updated",
@@ -28,6 +41,10 @@
       "quiz": {
         "title": "Quiz",
         "description": "Browse every Vale Society and Alliance quiz question, or practice with a randomized set."
+      },
+      "schedule": {
+        "title": "KvK Schedule",
+        "description": "Enter the anchor (Dark Monster fight time) and the full season schedule is computed automatically."
       }
     }
   },
@@ -89,5 +106,38 @@
     },
     "loading": "Loading questions...",
     "loadError": "Failed to load quiz data."
+  },
+  "schedule": {
+    "title": "KvK Schedule",
+    "subtitle": "Pick a season and enter the time your Dark Monster fight chapter was completed — all events are computed from this point.",
+    "seasonLabel": "Season",
+    "seasonPlaceholder": "Choose a season...",
+    "seasonHint": "Different seasons may have different event structures (chapters, behemoth timings, fortress…).",
+    "anchorLabel": "Anchor — Time your alliance COMPLETED the Dark Monster Fight chapter",
+    "anchorPlaceholder": "Pick date and time",
+    "anchorHint": "This is when your alliance finished the Dark Monster fight (the season's first chapter). Once done, the server locks this moment and all later events are computed from it. Default: today 12:00 — edit when you know the exact time.",
+    "loadingTemplate": "Loading schedule template...",
+    "noEvents": "No events match the current filter.",
+    "noEventsThisDay": "No events on this day.",
+    "dayCount": "{{count}} events",
+    "view": {
+      "calendar": "Calendar",
+      "list": "List"
+    },
+    "more": "more",
+    "calNav": {
+      "prevYear": "Previous year",
+      "prevMonth": "Previous month",
+      "today": "Today",
+      "nextMonth": "Next month",
+      "nextYear": "Next year"
+    },
+    "cols": {
+      "date": "Date",
+      "time": "Time",
+      "offset": "Offset",
+      "category": "Category",
+      "event": "Event"
+    }
   }
 }

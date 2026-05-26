@@ -38,9 +38,11 @@ export default function QuizPlayPage() {
   const { t, i18n } = useTranslation();
   const state = useQuizData();
 
-  const lang = (SUPPORTED_LANGS.includes(i18n.language as SupportedLang)
+  const rawLang = (SUPPORTED_LANGS.includes(i18n.language as SupportedLang)
     ? i18n.language
     : 'vi') as SupportedLang;
+  // Quiz data only has VI + EN; fall back to EN for any other UI language.
+  const lang: 'vi' | 'en' = rawLang === 'vi' ? 'vi' : 'en';
 
   const pool = useMemo<QuizQuestion[]>(() => {
     if (state.status !== 'ready') return [];
@@ -186,7 +188,7 @@ interface PlayingViewProps {
   question: QuizQuestion;
   index: number;
   total: number;
-  lang: SupportedLang;
+  lang: 'vi' | 'en';
   phase: Phase;
   selected: Letter | null;
   timeLeft: number;

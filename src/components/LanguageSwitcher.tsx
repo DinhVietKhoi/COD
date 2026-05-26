@@ -4,6 +4,7 @@ import { SUPPORTED_LANGS, type SupportedLang } from '../i18n';
 const LABEL: Record<SupportedLang, string> = {
   vi: 'VI',
   en: 'EN',
+  kr: 'KR',
 };
 
 export default function LanguageSwitcher() {

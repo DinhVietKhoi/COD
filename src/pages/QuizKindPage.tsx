@@ -15,9 +15,11 @@ export default function QuizKindPage() {
     return <Navigate to="/quiz" replace />;
   }
   const quizKind = kind as QuizKind;
-  const lang = (SUPPORTED_LANGS.includes(i18n.language as SupportedLang)
+  const rawLang = (SUPPORTED_LANGS.includes(i18n.language as SupportedLang)
     ? i18n.language
     : 'vi') as SupportedLang;
+  // Quiz data only has VI + EN; fall back to EN for any other UI language.
+  const lang: 'vi' | 'en' = rawLang === 'vi' ? 'vi' : 'en';
 
   return (
     <div className="flex flex-col gap-6">

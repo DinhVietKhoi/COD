@@ -1,0 +1,14 @@
+{
+  "schedules": [
+    {
+      "id": "sos7",
+      "label_vi": "Mùa Giải Xung Đột 7 (SoS7)",
+      "label_en": "Season of Strife 7 (SoS7)",
+      "file": "/data/schedules/sos7.json",
+      "anchor_default_ms": 1779494400000,
+      "anchor_default_label_vi": "2026-05-23 07:00 (theo ví dụ)",
+      "anchor_default_label_en": "2026-05-23 07:00 (example)"
+    }
+  ],
+  "default_id": "sos7"
+}

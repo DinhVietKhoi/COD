@@ -4,8 +4,9 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 import en from './locales/en.json';
 import vi from './locales/vi.json';
+import kr from './locales/kr.json';
 
-export const SUPPORTED_LANGS = ['vi', 'en'] as const;
+export const SUPPORTED_LANGS = ['vi', 'en', 'kr'] as const;
 export type SupportedLang = (typeof SUPPORTED_LANGS)[number];
 
 i18n
@@ -15,6 +16,7 @@ i18n
     resources: {
       en: { translation: en },
       vi: { translation: vi },
+      kr: { translation: kr },
     },
     fallbackLng: 'en',
     supportedLngs: [...SUPPORTED_LANGS],

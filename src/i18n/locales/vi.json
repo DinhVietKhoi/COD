@@ -5,11 +5,24 @@
     "language": "Ngôn ngữ",
     "lang": {
       "en": "Tiếng Anh",
-      "vi": "Tiếng Việt"
+      "vi": "Tiếng Việt",
+      "kr": "Tiếng Hàn"
     },
     "nav": {
       "home": "Trang chủ",
-      "quiz": "Đố vui"
+      "quiz": "Đố vui",
+      "schedule": "Lịch KvK"
+    },
+    "sidebar": {
+      "hub": "Hub",
+      "theme": {
+        "light": "Chế độ sáng",
+        "dark": "Chế độ tối"
+      }
+    },
+    "timezone": {
+      "placeholder": "Chọn timezone...",
+      "detectedHint": "Phát hiện trên máy: {{tz}}"
     },
     "footer": {
       "data_updated": "Dữ liệu cập nhật",
@@ -28,6 +41,10 @@
       "quiz": {
         "title": "Đố vui",
         "description": "Xem toàn bộ câu hỏi Đố Vui Cá Nhân và Đố Vui Liên Minh, hoặc luyện tập với bộ câu ngẫu nhiên."
+      },
+      "schedule": {
+        "title": "Lịch KvK",
+        "description": "Nhập anchor (giờ Đánh Quái Hắc Ám), toàn bộ sự kiện trong season được sinh ra tự động."
       }
     }
   },
@@ -89,5 +106,38 @@
     },
     "loading": "Đang tải câu hỏi...",
     "loadError": "Không tải được dữ liệu đố vui."
+  },
+  "schedule": {
+    "title": "Lịch KvK",
+    "subtitle": "Chọn mùa giải và nhập giờ hoàn thành chương Đánh Quái Hắc Ám — toàn bộ lịch sự kiện sẽ tự tính từ thời điểm này.",
+    "seasonLabel": "Mùa giải",
+    "seasonPlaceholder": "Chọn mùa giải...",
+    "seasonHint": "Mỗi mùa có cấu trúc sự kiện khác nhau (số chương, thời gian behemoth, pháo đài…).",
+    "anchorLabel": "Mốc khởi điểm — Giờ HOÀN THÀNH chương Đánh Quái Hắc Ám",
+    "anchorPlaceholder": "Chọn ngày và giờ",
+    "anchorHint": "Đây là thời điểm liên minh của bạn hoàn thành chương Đánh Quái Hắc Ám (chương đầu của mùa). Khi xong, server khóa thời điểm này và tính toàn bộ sự kiện sau đó từ đây. Mặc định: 12:00 hôm nay — sửa lại khi biết giờ chính xác.",
+    "loadingTemplate": "Đang tải template lịch...",
+    "noEvents": "Không có sự kiện phù hợp với bộ lọc hiện tại.",
+    "noEventsThisDay": "Không có sự kiện nào trong ngày này.",
+    "dayCount": "{{count}} sự kiện",
+    "view": {
+      "calendar": "Lịch",
+      "list": "Danh sách"
+    },
+    "more": "thêm",
+    "calNav": {
+      "prevYear": "Năm trước",
+      "prevMonth": "Tháng trước",
+      "today": "Hôm nay",
+      "nextMonth": "Tháng sau",
+      "nextYear": "Năm sau"
+    },
+    "cols": {
+      "date": "Ngày",
+      "time": "Giờ",
+      "offset": "Cách mốc",
+      "category": "Loại",
+      "event": "Sự kiện"
+    }
   }
 }

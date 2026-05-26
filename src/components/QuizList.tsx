@@ -2,7 +2,6 @@ import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import type { TFunction } from 'i18next';
 import type { QuizCategory, QuizQuestion } from '../types/quiz';
-import type { SupportedLang } from '../i18n';
 
 interface FlatQuestion extends QuizQuestion {
   subkind: string | null;
@@ -18,7 +17,7 @@ interface SearchResult {
 
 interface Props {
   categories: QuizCategory[];
-  lang: SupportedLang;
+  lang: 'vi' | 'en';
 }
 
 const PAGE_SIZE = 50;

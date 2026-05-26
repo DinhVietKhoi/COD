@@ -1,0 +1,103 @@
+{
+  "season_id": "sos7",
+  "season_label_vi": "Mùa Giải Xung Đột 7 (SoS7)",
+  "season_label_en": "Season of Strife 7 (SoS7)",
+  "anchor_label_vi": "Hoàn thành chương Đánh Quái Hắc Ám",
+  "anchor_label_en": "Dark Monster Fight chapter completed",
+  "categories": [
+    { "id": "prekvk", "label_vi": "Tiền KvK", "label_en": "Pre-KvK", "color": "#3a8a8a" },
+    { "id": "milestone", "label_vi": "Mốc Sự Kiện", "label_en": "Milestone", "color": "#e88a3d" },
+    { "id": "darkmonster", "label_vi": "Quái Hắc Ám", "label_en": "Dark Monster", "color": "#7a2a4a" },
+    { "id": "lore", "label_vi": "Cốt Truyện", "label_en": "Lore Quest", "color": "#2a6e7e" },
+    { "id": "behe", "label_vi": "Behemoth", "label_en": "Behemoth", "color": "#2b7d3a" },
+    { "id": "pass", "label_vi": "Cổng", "label_en": "Pass", "color": "#d4a82a" },
+    { "id": "fort", "label_vi": "Pháo Đài Hắc Ám", "label_en": "Dark Fortress", "color": "#a23030" },
+    { "id": "statue", "label_vi": "Tượng Tổ Tiên", "label_en": "Ancestor Statue", "color": "#1e7d8a" },
+    { "id": "buff", "label_vi": "Buff", "label_en": "Buff", "color": "#7a3a8a" },
+    { "id": "unlock", "label_vi": "Mở Khóa", "label_en": "Unlock", "color": "#506680" },
+    { "id": "weekly", "label_vi": "Sự Kiện Định Kỳ", "label_en": "Recurring", "color": "#6a3d8a" },
+    { "id": "monolith", "label_vi": "Khối Thông Thạo", "label_en": "Monolith", "color": "#a85a8a" }
+  ],
+  "events": [
+    { "id": "prekvk_d-7", "name_vi": "Gìn Giữ Hòa Bình", "name_en": "Peacekeeping", "category": "prekvk", "offset_hours": -168 },
+    { "id": "prekvk_d-6", "name_vi": "Gìn Giữ Hòa Bình", "name_en": "Peacekeeping", "category": "prekvk", "offset_hours": -144 },
+    { "id": "prekvk_d-5", "name_vi": "Chuẩn Bị Chiến Tranh", "name_en": "War Preparation", "category": "prekvk", "offset_hours": -120 },
+    { "id": "prekvk_d-4", "name_vi": "Chuẩn Bị Chiến Tranh", "name_en": "War Preparation", "category": "prekvk", "offset_hours": -96 },
+    { "id": "prekvk_d-3", "name_vi": "Tập Hợp Lực Lượng", "name_en": "Mustering", "category": "prekvk", "offset_hours": -72 },
+    { "id": "prekvk_d-2", "name_vi": "Tập Hợp Lực Lượng", "name_en": "Mustering", "category": "prekvk", "offset_hours": -48 },
+    { "id": "milestone_start", "name_vi": "Bắt Đầu KvK", "name_en": "KvK Start", "category": "milestone", "offset_hours": -24 },
+
+    { "id": "quai_hac_am", "name_vi": "Đánh Quái Hắc Ám (mốc khởi điểm)", "name_en": "Dark Monster Fight (anchor)", "category": "darkmonster", "offset_hours": 0, "note_vi": "Hoàn thành chương này là mốc khởi điểm. Cổng 1 mở sau ~12h." },
+
+    { "id": "lore_m3", "name_vi": "Cốt truyện chương 3", "name_en": "Lore chapter 3", "category": "lore", "mission_order": 3, "offset_hours": 0 },
+    { "id": "lore_m4", "name_vi": "Cốt truyện chương 4", "name_en": "Lore chapter 4", "category": "lore", "mission_order": 4, "offset_hours": 48 },
+    { "id": "lore_m5", "name_vi": "Cốt truyện chương 5", "name_en": "Lore chapter 5", "category": "lore", "mission_order": 5, "offset_hours": 96 },
+    { "id": "lore_m6", "name_vi": "Cốt truyện chương 6", "name_en": "Lore chapter 6", "category": "lore", "mission_order": 6, "offset_hours": 144 },
+    { "id": "lore_m7", "name_vi": "Cốt truyện chương 7", "name_en": "Lore chapter 7", "category": "lore", "mission_order": 7, "offset_hours": 192 },
+    { "id": "lore_m8", "name_vi": "Cốt truyện chương 8", "name_en": "Lore chapter 8", "category": "lore", "mission_order": 8, "offset_hours": 240 },
+    { "id": "lore_m9", "name_vi": "Cốt truyện chương 9", "name_en": "Lore chapter 9", "category": "lore", "mission_order": 9, "offset_hours": 288 },
+    { "id": "lore_m10", "name_vi": "Cốt truyện chương 10", "name_en": "Lore chapter 10", "category": "lore", "mission_order": 10, "offset_hours": 336 },
+    { "id": "lore_m11", "name_vi": "Cốt truyện chương 11", "name_en": "Lore chapter 11", "category": "lore", "mission_order": 11, "offset_hours": 384 },
+    { "id": "lore_m12", "name_vi": "Cốt truyện chương 12", "name_en": "Lore chapter 12", "category": "lore", "mission_order": 12, "offset_hours": 432 },
+    { "id": "lore_m13", "name_vi": "Cốt truyện chương 13", "name_en": "Lore chapter 13", "category": "lore", "mission_order": 13, "offset_hours": 480 },
+    { "id": "lore_m14", "name_vi": "Cốt truyện chương 14", "name_en": "Lore chapter 14", "category": "lore", "mission_order": 14, "offset_hours": 528 },
+    { "id": "lore_m15", "name_vi": "Cốt truyện chương 15", "name_en": "Lore chapter 15", "category": "lore", "mission_order": 15, "offset_hours": 576 },
+    { "id": "lore_m16", "name_vi": "Cốt truyện chương 16", "name_en": "Lore chapter 16", "category": "lore", "mission_order": 16, "offset_hours": 624 },
+    { "id": "lore_m17", "name_vi": "Cốt truyện chương 17", "name_en": "Lore chapter 17", "category": "lore", "mission_order": 17, "offset_hours": 672 },
+    { "id": "lore_m18", "name_vi": "Cốt truyện chương 18", "name_en": "Lore chapter 18", "category": "lore", "mission_order": 18, "offset_hours": 720 },
+    { "id": "lore_m19", "name_vi": "Cốt truyện chương 19", "name_en": "Lore chapter 19", "category": "lore", "mission_order": 19, "offset_hours": 768 },
+    { "id": "lore_m20", "name_vi": "Cốt truyện chương 20", "name_en": "Lore chapter 20", "category": "lore", "mission_order": 20, "offset_hours": 816 },
+    { "id": "lore_m21", "name_vi": "Cốt truyện chương 21", "name_en": "Lore chapter 21", "category": "lore", "mission_order": 21, "offset_hours": 864 },
+
+    { "id": "pass_l1", "name_vi": "Cổng Cấp 1", "name_en": "Pass Lv.1", "category": "pass", "offset_hours": 156 },
+    { "id": "pass_l2", "name_vi": "Cổng Cấp 2", "name_en": "Pass Lv.2", "category": "pass", "offset_hours": 324 },
+    { "id": "pass_l3", "name_vi": "Cổng Cấp 3", "name_en": "Pass Lv.3", "category": "pass", "offset_hours": 492 },
+    { "id": "pass_l4", "name_vi": "Cổng Cấp 4", "name_en": "Pass Lv.4", "category": "pass", "offset_hours": 660 },
+
+    { "id": "fort_l12", "name_vi": "Pháo Đài Hắc Ám Cấp 12", "name_en": "Dark Fortress Lv.12", "category": "fort", "offset_hours": 252 },
+    { "id": "fort_l13", "name_vi": "Pháo Đài Hắc Ám Cấp 13", "name_en": "Dark Fortress Lv.13", "category": "fort", "offset_hours": 420 },
+    { "id": "fort_l14", "name_vi": "Pháo Đài Hắc Ám Cấp 14", "name_en": "Dark Fortress Lv.14", "category": "fort", "offset_hours": 612 },
+    { "id": "fort_l15", "name_vi": "Pháo Đài Hắc Ám Cấp 15", "name_en": "Dark Fortress Lv.15", "category": "fort", "offset_hours": 804 },
+
+    { "id": "milestone_battle", "name_vi": "Pha Chiến Đấu", "name_en": "Battle Phase", "category": "milestone", "offset_hours": 672, "note_vi": "Bắt đầu giai đoạn chiến đấu lớn" },
+    { "id": "milestone_summary", "name_vi": "Tổng Kết Giữa Mùa", "name_en": "Mid-Season Summary", "category": "milestone", "offset_hours": 504 },
+    { "id": "milestone_end_summary", "name_vi": "Tổng Kết Cuối Mùa", "name_en": "End-Season Summary", "category": "milestone", "offset_hours": 924 },
+    { "id": "milestone_end", "name_vi": "Kết Thúc KvK", "name_en": "KvK End", "category": "milestone", "offset_hours": 984 },
+
+    { "id": "behe_d0_giantbear", "name_vi": "Gấu Khổng Lồ", "name_en": "Giant Bear", "category": "behe", "offset_hours": 12 },
+    { "id": "behe_d4_poison", "name_vi": "Khổng Lồ Độc", "name_en": "Poison Giant", "category": "behe", "offset_hours": 108 },
+    { "id": "behe_d10_roc", "name_vi": "Đại Bàng Vũ Trụ", "name_en": "Cosmic Roc", "category": "behe", "offset_hours": 252 },
+    { "id": "behe_d13_hydra", "name_vi": "Hydra Bảy Sắc", "name_en": "Colorful Hydra", "category": "behe", "offset_hours": 348 },
+    { "id": "behe_d18_necro", "name_vi": "Khổng Lồ Tà Ác", "name_en": "Necrogiant", "category": "behe", "offset_hours": 444 },
+    { "id": "behe_d32_dragon", "name_vi": "Rồng Sấm", "name_en": "Thunder Dragon", "category": "behe", "offset_hours": 780 },
+    { "id": "behe_d35_fireweaver", "name_vi": "Tay Dệt Lửa", "name_en": "Fireweaver", "category": "behe", "offset_hours": 852 },
+
+    { "id": "weekly_battle_abyss_1", "name_vi": "Vực Thẳm Quyết Đấu", "name_en": "Battle Abyss", "category": "weekly", "offset_hours": 72 },
+    { "id": "weekly_battle_abyss_2", "name_vi": "Vực Thẳm Quyết Đấu", "name_en": "Battle Abyss", "category": "weekly", "offset_hours": 240 },
+    { "id": "weekly_battle_abyss_3", "name_vi": "Vực Thẳm Quyết Đấu", "name_en": "Battle Abyss", "category": "weekly", "offset_hours": 408 },
+    { "id": "weekly_battle_abyss_4", "name_vi": "Vực Thẳm Quyết Đấu", "name_en": "Battle Abyss", "category": "weekly", "offset_hours": 576 },
+    { "id": "weekly_battle_abyss_5", "name_vi": "Vực Thẳm Quyết Đấu", "name_en": "Battle Abyss", "category": "weekly", "offset_hours": 744 },
+
+    { "id": "weekly_lord_1", "name_vi": "Lãnh Chúa Mạnh Nhất", "name_en": "Strongest Lord", "category": "weekly", "offset_hours": 48 },
+    { "id": "weekly_lord_2", "name_vi": "Lãnh Chúa Mạnh Nhất", "name_en": "Strongest Lord", "category": "weekly", "offset_hours": 384 },
+    { "id": "weekly_lord_3", "name_vi": "Lãnh Chúa Mạnh Nhất", "name_en": "Strongest Lord", "category": "weekly", "offset_hours": 720 },
+
+    { "id": "weekly_wheel_1", "name_vi": "Vòng Quay Tướng", "name_en": "Wheel of Destiny", "category": "weekly", "offset_hours": 72 },
+    { "id": "weekly_wheel_2", "name_vi": "Vòng Quay Tướng", "name_en": "Wheel of Destiny", "category": "weekly", "offset_hours": 408 },
+    { "id": "weekly_wheel_3", "name_vi": "Vòng Quay Tướng", "name_en": "Wheel of Destiny", "category": "weekly", "offset_hours": 744 },
+
+    { "id": "weekly_forge_1", "name_vi": "Lò Rèn Ánh Sáng (Cận Chiến)", "name_en": "Forge of Light (Melee)", "category": "weekly", "offset_hours": 240 },
+    { "id": "weekly_forge_2", "name_vi": "Lò Rèn Ánh Sáng (Tầm Xa)", "name_en": "Forge of Light (Range)", "category": "weekly", "offset_hours": 576 },
+
+    { "id": "weekly_roots_1", "name_vi": "Cội Rễ Chiến Tranh", "name_en": "Roots of War", "category": "weekly", "offset_hours": 0 },
+    { "id": "weekly_roots_2", "name_vi": "Cội Rễ Chiến Tranh", "name_en": "Roots of War", "category": "weekly", "offset_hours": 336 },
+    { "id": "weekly_roots_3", "name_vi": "Cội Rễ Chiến Tranh", "name_en": "Roots of War", "category": "weekly", "offset_hours": 672 },
+
+    { "id": "statue_1", "name_vi": "Tượng Tổ Tiên Tối Cao", "name_en": "Supreme Ancestor Statue", "category": "statue", "offset_hours": 60, "duration_hours": 2 },
+    { "id": "statue_2", "name_vi": "Tượng Tổ Tiên Tối Cao", "name_en": "Supreme Ancestor Statue", "category": "statue", "offset_hours": 146, "duration_hours": 2 },
+    { "id": "statue_3", "name_vi": "Tượng Tổ Tiên Tối Cao", "name_en": "Supreme Ancestor Statue", "category": "statue", "offset_hours": 232, "duration_hours": 2 },
+    { "id": "statue_4", "name_vi": "Tượng Tổ Tiên Tối Cao", "name_en": "Supreme Ancestor Statue", "category": "statue", "offset_hours": 318, "duration_hours": 2 },
+    { "id": "statue_5", "name_vi": "Tượng Tổ Tiên Tối Cao", "name_en": "Supreme Ancestor Statue", "category": "statue", "offset_hours": 404, "duration_hours": 2 },
+    { "id": "statue_6", "name_vi": "Tượng Tổ Tiên Tối Cao", "name_en": "Supreme Ancestor Statue", "category": "statue", "offset_hours": 490, "duration_hours": 2 }
+  ]
+}

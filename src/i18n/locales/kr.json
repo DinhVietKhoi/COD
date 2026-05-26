@@ -1,0 +1,143 @@
+{
+  "common": {
+    "brand": "๛ᵛⁿMageNoobッ",
+    "tagline": "Call of Dragons 정보 허브",
+    "language": "언어",
+    "lang": {
+      "en": "영어",
+      "vi": "베트남어",
+      "kr": "한국어"
+    },
+    "nav": {
+      "home": "홈",
+      "quiz": "퀴즈",
+      "schedule": "일정"
+    },
+    "footer": {
+      "data_updated": "데이터 업데이트",
+      "source": "출처",
+      "questions": "{{count}}개 문항"
+    },
+    "comingSoon": "준비 중",
+    "breadcrumb": {
+      "home": "홈"
+    },
+    "sidebar": {
+      "hub": "Hub",
+      "theme": {
+        "light": "라이트 모드",
+        "dark": "다크 모드"
+      }
+    },
+    "timezone": {
+      "placeholder": "시간대 선택...",
+      "detectedHint": "현재 PC 시간대: {{tz}}"
+    }
+  },
+  "home": {
+    "title": "Call of Dragons Hub",
+    "subtitle": "Call of Dragons 플레이어를 위한 도구와 정보. 더 많은 섹션이 추가될 예정입니다.",
+    "sections": {
+      "quiz": {
+        "title": "퀴즈",
+        "description": "Vale Society와 동맹 퀴즈의 모든 문항을 보거나 무작위로 연습하세요."
+      },
+      "schedule": {
+        "title": "왕국대전 일정",
+        "description": "암흑 괴물 처치 시각(앵커)을 입력하면 전체 시즌 일정이 자동으로 계산됩니다."
+      }
+    }
+  },
+  "quiz": {
+    "title": "퀴즈",
+    "subtitle": "게임 내 퀴즈 문항을 보고, 검색하고, 연습하세요.",
+    "personal": {
+      "title": "개인 퀴즈",
+      "subtitle": "Vale Society 퀴즈",
+      "description": "Vale Society 퀴즈 이벤트에서 혼자 답변하는 개인 스토리/게임플레이 문항입니다."
+    },
+    "alliance": {
+      "title": "동맹 퀴즈",
+      "subtitle": "동맹 이벤트",
+      "description": "동맹 멤버와 함께 답변하는 동맹 퀴즈 이벤트의 문항. 시즌 보조 이벤트 포함."
+    },
+    "actions": {
+      "practice": "연습",
+      "browseAll": "전체 보기"
+    },
+    "stats": {
+      "count": "{{count}}개 문항",
+      "events": "{{count}}개 보조 이벤트"
+    },
+    "events": {
+      "core": "코어",
+      "worldcup": "World Cup 2026"
+    },
+    "notice": {
+      "practice": "연습 미니게임이 곧 추가됩니다.",
+      "list": "검색 기능이 포함된 전체 문항 목록이 곧 추가됩니다."
+    },
+    "list": {
+      "searchPlaceholder": "문항 또는 답변 검색...",
+      "noResults": "일치하는 문항이 없습니다.",
+      "filterAll": "전체",
+      "showing": "{{count}}개 문항",
+      "loadMore": "{{remaining}}개 더 보기"
+    },
+    "play": {
+      "title": "연습",
+      "intro": "무작위 20문항에 답하세요. 문항당 30초, 정답당 1점.",
+      "start": "시작",
+      "progress": "문제 {{current}} / {{total}}",
+      "score": "점수: {{score}}",
+      "timeLeft": "{{seconds}}초",
+      "timeOut": "시간 종료!",
+      "correct": "정답!",
+      "wrong": "오답",
+      "notAnswered": "미응답",
+      "next": "다음",
+      "finished": {
+        "title": "완료",
+        "score": "{{score}} / {{total}}점 획득",
+        "restart": "다시 하기",
+        "back": "퀴즈로 돌아가기"
+      },
+      "quit": "종료"
+    },
+    "loading": "문항을 불러오는 중...",
+    "loadError": "퀴즈 데이터를 불러오지 못했습니다."
+  },
+  "schedule": {
+    "title": "왕국대전 일정",
+    "subtitle": "시즌을 선택하고 암흑 괴물 처치 챕터를 완료한 시각을 입력하면 — 이후 모든 이벤트가 자동 계산됩니다.",
+    "seasonLabel": "시즌",
+    "seasonPlaceholder": "시즌 선택...",
+    "seasonHint": "시즌마다 챕터 수, 베헤모스 타이밍, 요새 등 일정 구조가 다릅니다.",
+    "anchorLabel": "앵커 — 동맹이 암흑 괴물 처치 챕터를 완료한 시각",
+    "anchorPlaceholder": "날짜와 시간 선택",
+    "anchorHint": "동맹이 암흑 괴물 처치(시즌 첫 챕터)를 완료한 시각입니다. 완료되면 서버가 이 시점을 고정하고 이후 모든 이벤트가 여기서부터 계산됩니다. 기본값: 오늘 12:00 — 실제 시각을 알면 수정하세요.",
+    "loadingTemplate": "일정 템플릿 로딩 중...",
+    "noEvents": "현재 필터에 해당하는 이벤트가 없습니다.",
+    "noEventsThisDay": "이 날짜에 해당하는 이벤트가 없습니다.",
+    "dayCount": "이벤트 {{count}}개",
+    "view": {
+      "calendar": "달력",
+      "list": "목록"
+    },
+    "more": "더보기",
+    "calNav": {
+      "prevYear": "이전 연도",
+      "prevMonth": "이전 달",
+      "today": "오늘",
+      "nextMonth": "다음 달",
+      "nextYear": "다음 연도"
+    },
+    "cols": {
+      "date": "날짜",
+      "time": "시각",
+      "offset": "오프셋",
+      "category": "카테고리",
+      "event": "이벤트"
+    }
+  }
+}
